@@ -1,0 +1,174 @@
+#canvas {
+    width: 400px
+}
+
+#canvas2 {
+    margin-top: 20px;
+}
+
+#canvas3 {
+    border: 3px solid black;
+}
+
+#canvas4 {
+    border: 3px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+#main {
+    margin: auto;
+    width: 1000px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    padding: 20px 100px 30px 100px;
+}
+
+#subDiv1 {
+    padding: 50px;
+    background-color: rgba(47, 58, 80, 0.8);
+    height: 660px;
+}
+
+.hide {
+    display: none
+}
+
+.td {
+    width: 400px;
+    height: 640px;
+    background-color: rgba(27, 38, 60);
+}
+
+.innerDiv {
+    width: 825px;
+    height: 590px;
+    background-color: rgba(27, 38, 60);
+    padding: 30px
+}
+
+#subDiv3 {
+    width: 330px;
+}
+
+.tdGap {
+    padding: 70px;
+}
+
+button {
+    padding: 5px 30px;
+    background-color: rgb(58, 250, 58);
+    border: 3px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:  'Arimo', sans-serif;
+}
+
+#pickaxeBtn {
+    margin-bottom: 0px
+}
+
+.pickaxeLvlP {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:  'Arimo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.pickaxeP {
+    border: 2px solid black;
+    margin: 0px 50px;
+    background-color: rgba(47, 58, 80, 0.8);
+}
+
+.center {
+    text-align: center;
+}
+
+.lvlUpInP {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:  'Arimo', sans-serif;
+    letter-spacing: 2px;
+}
+
+#lvlUpIn {
+    font-size: 25px;
+}
+
+.btnP {
+    text-align: center;
+}
+
+.activeBtn {
+    background-color: rgb(161, 255, 161);
+}
+
+.shopImgP {
+    border: 2px solid black;
+    margin: 10px 20px;
+    height: 130px;
+    width: 130px;
+    background-color: rgba(47, 58, 80, 0.8);
+}
+
+.furnaceImgP {
+    border: 2px solid black;
+    margin: 10px 20px;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(47, 58, 80, 0.8);
+}
+
+.shopImg {
+    margin: auto;
+}
+
+.purchaseBtn {
+    margin-left: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.useBtn {
+    margin-left: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.offBtn {
+    background-color: rgb(34, 39, 51)
+}
+
+.pBold {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:  'Arimo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.page4BackBtn {
+    margin-bottom: 20px;
+}
+
+#blueBg {
+    background-color: cornflowerblue;
+}
+
+#redBg {
+    background-color: lightcoral;
+}
+
+#goldBg {
+    background-color: gold;
+}
+
+.white {
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clicker</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="main">
+
+    <div id="subDiv1">
+
+        <!-- Main Stuff-->
+
+        <div id="page1">
+        <table>
+        <tr>
+            <td class="td">
+
+                <!-- Canvas Element -->
+                <canvas id="canvas"></canvas>
+
+            </td>
+            <td class="tdGap">
+
+            </td>
+            <td class="td" id="subDiv3">
+                <p class="btnP"><button id="shopBtn">Shop</button></p>
+                <p class="btnP"><button id="infoBtn">Info</button></p>
+                <p class="btnP"><button id="smeltingBtn">Smelting</button></p>
+                <p class="btnP"><button id="pickaxeBtn">Pickaxe</button><p>
+
+                <p class="pBold center">Pickaxe Level: <span id="pickLvl">1</span></p>
+                <p class="pickaxeP"><img id="pickaxeImg" src="images/Wooden_Pickaxe.png" width="200px"></p>
+
+                <p class="lvlUpInP center" id="lvlUpInP">
+                    Level Up In 
+                    <br><span id="lvlUpIn">0</span>
+                    <br> Clicks
+                </p>
+
+                <p class='lvlUpInP center hide' id="message1"> Your Pickaxe Has Leveled Up!<br> Click the Pickaxe Button To See Effects.</p>
+            </td>
+        </tr>
+        </table>
+        </div>
+
+        <div class="innerDiv hide" id="page2">
+            <button class="activeBtn" id="shopBtn1">Pickaxes</button>
+            <button id="shopBtn2">Upgrades</button>
+            <button id="shopBtn4">Furnaces</button>
+            <button id="shopBtn3">Back</button>
+
+            <div id="page2-1">'
+
+                <center>
+                <table>
+                    <tr>
+                        <td><p class="shopImgP"><img class="shopImg" src="images/Stone-pickaxe2.png" width="130px"></p></td>
+                        <td><p class="shopImgP"><img class="shopImg" src="images/iron-pickaxE.png" width="120px"></p></td>
+                        <td><p class="shopImgP"><img class="shopImg" src="images/Golden_Pickaxe.png" width="130px"></p></td>
+                        <td><p class="shopImgP"><img class="shopImg" src="images/diamond_pickaxe.png" width="130px"></p></td>
+                    </tr>
+                    <tr class="center">
+                        <td><button id="purchaseBtn1" class="purchaseBtn">Purchase</button></td>
+                        <td><button id="purchaseBtn2" class="purchaseBtn">Purchase</button></td>
+                        <td><button id="purchaseBtn3" class="purchaseBtn">Purchase</button></td>
+                        <td><button id="purchaseBtn4" class="purchaseBtn">Purchase</button></td>
+                    </tr>
+                </table>
+                </center>
+
+
+
+            </div>
+
+            <div class="hide" id="page2-2">
+
+                <center>
+                    <table>
+                        <tr>
+                            <td><p id="redBg" class="shopImgP"><img class="shopImg" src="images/auto-clicker.png" width="125px"></p></td>
+                            <td><p id="blueBg" class="shopImgP"><img class="shopImg" src="images/cursor.png" width="120px"></p></td>
+                            <td><p id="goldBg" class="shopImgP"><img class="shopImg" src="images/cursor.png" width="120px"></p></td>
+                            <td><p class="shopImgP"></p></td>
+                        </tr>
+                        <tr class="center">
+                            <td><button id="purchaseBtn9" class="purchaseBtn">Purchase</button></td>
+                            <td><button id="purchaseBtn10" class="purchaseBtn">Purchase</button></td>
+                            <td><button id="purchaseBtn11" class="purchaseBtn">Purchase</button></td>
+                            <td><button id="purchaseBtn12" class="purchaseBtn">Purchase</button></td>
+                        </tr>
+                    </table>
+                    </center>
+                
+            </div>
+
+            <div class="hide" id="page2-3">
+
+                <center>
+                    <table>
+                        <tr>
+                            <td><p class="shopImgP"><img class="shopImg" src="images/Furnace.png" width="130px"></p></td>
+                            <td><p class="shopImgP"><img class="shopImg" src="images/Furnace.png" width="130px"></p></td>
+                            <td><p class="shopImgP"><img class="shopImg" src="images/Furnace.png" width="130px"></p></td>
+                            <td><p class="shopImgP"><img class="shopImg" src="images/Furnace.png" width="130px"></p></td>
+                        </tr>
+                        <tr class="center">
+                            <td><button id="purchaseBtn5" class="purchaseBtn">Purchase</button></td>
+                            <td><button id="purchaseBtn6" class="purchaseBtn">Purchase</button></td>
+                            <td><button id="purchaseBtn7" class="purchaseBtn">Purchase</button></td>
+                            <td><button id="purchaseBtn8" class="purchaseBtn">Purchase</button></td>
+                        </tr>
+                    </table>
+                </center>
+
+            </div>
+
+            <center>
+                <canvas id="canvas2"></canvas>
+            </center>
+
+        </div>
+
+        <div class="innerDiv hide", id="page3">
+            <button id="infoBtn1">Back</button>
+            <p class="white">
+                Welcome, to the Minecraft Clicker Game.<br>
+                <br>
+                this is a variation of the famous "Cookie Clicker" game. There is no real ending to the game. Your goal is just to get as far as you can.<br>
+                <br>
+                How To Play: <br>
+                Left click on the stone block to mine it. It may take a while to mine it, but it will become easier as you obtain stronger tools, and upgrade your current ones. Ones the healthbar hits zero, the block will break, you will obtain an item, and a new block will apear. There is a chance that instead of another stone block apearing, you will get an ore. The better quality your pickaxe, the better ores you can collect. <br>
+                <br>
+                Some items in the game can be smelted to make more valueble items. To do this, click the "Smelting" button, but you will need a furnace before you can smelt. DO NOT put gold and iron in a furnace at the same time or you might loose a lot of stuff. <br>
+                <br>
+                Enter the shop by clicking the "shop" button. Here you can buy stuff using the items you have obtained through mining. <br>
+                <br>
+                More about the game: <br>
+                This is a Beta version of the game, so there are some features that have not yet been implemented. As of now you can only purchase and use 1 furnace. When pickaxes level up, there is only one possible effect that they can get: "efficiency." You aren't able to switch back to a previous pickaxe, and effects from the previous pickaxe do not get transferred to the next. Can you beat my score of 100 diamonds?
+
+            </p>
+        </div>
+
+        <div class="innerDiv hide" id="page4">
+            <div id="page4-main">
+                <button id="smeltingBtn1">Back</button>
+                <p class="pBold">Your Furnaces:</p>
+
+                <center>
+                    <table>
+                        <tr>
+                            <td><p id="furnace1" class="furnaceImgP"><img id="furnaceImg1" class="shopImg" src="images/plus.png" width="150px"></p></td>
+                            <td><p id="furnace2" class="furnaceImgP"><img id="furnaceImg2" class="shopImg" src="images/plus.png" width="150px"></p></td>
+                            <td><p id="furnace3" class="furnaceImgP"><img id="furnaceImg3" class="shopImg" src="images/plus.png" width="150px"></p></td>
+                            <td><p id="furnace4" class="furnaceImgP"><img id="furnaceImg4" class="shopImg" src="images/plus.png" width="150px"></p></td>
+                        </tr>
+                        <tr class="center">
+                            <td><button id="useBtn1" class="useBtn offBtn">Use</button></td>
+                            <td><button id="useBtn2" class="useBtn offBtn">Use</button></td>
+                            <td><button id="useBtn3" class="useBtn offBtn">Use</button></td>
+                            <td><button id="useBtn4" class="useBtn offBtn">Use</button></td>
+                        </tr>
+                        <tr class="center">
+                            <td><button id="upgradeFurnaceBtn1" class="purchaseBtn offBtn">Upgrade</button></td>
+                            <td><button id="upgradeFurnaceBtn2" class="purchaseBtn offBtn">Upgrade</button></td>
+                            <td><button id="upgradeFurnaceBtn3" class="purchaseBtn offBtn">Upgrade</button></td>
+                            <td><button id="upgradeFurnaceBtn4" class="purchaseBtn offBtn">Upgrade</button></td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
+
+            <div class="hide" id="page4-1">
+                <button class="page4BackBtn" id="returnBtn1">Back</button>
+            </div>
+
+            <div class="hide" id="page4-2">
+                <button id="returnBtn2">Back</button>
+            </div>
+
+            <div class="hide" id="page4-3">
+                <button id="returnBtn3">Back</button>
+            </div>
+
+            <div class="hide" id="page4-4">
+                <button id="returnBtn4">Back</button>
+            </div>
+
+            <center>
+                <canvas class="hide" id="canvas4"></canvas>
+            </center>
+        </div>
+
+        <div class="innerDiv hide" id="page5">
+            <button id="pickaxeSectBtn1">Back</button>
+
+            <!-- Canvas Element-->
+            <p><canvas id="canvas3"></canvas></p>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- Load Images to Page -->
+    <img class="hide" id="img1" src="images/Stone.png">
+    <img class="hide" id="img2" src="images/cobbleStone.png">
+    <img class="hide" id="img3" src="images/Coal_Ore.png">
+    <img class="hide" id="img4" src="images/Coal.png">
+    <img class="hide" id="img5" src="images/IronOre.png">
+    <img class="hide" id="img6" src="images/Iron_Ingot.png">
+    <img class="hide" id="img7" src="images/Furnace.png">
+    <img class="hide" id="img8" src="images/Wooden_Pickaxe.png">
+    <img class="hide" id="img9" src="images/Stone-pickaxe2.png">
+    <img class="hide" id="img10" src="images/Gold_Ingot.png">
+    <img class="hide" id="img11" src="images/GoldOre.png">
+    <img class="hide" id="img12" src="images/DiamondOre.png">
+    <img class="hide" id="img13" src="images/diamond.png">
+    <img class="hide" id="img14" src="images/diamond_pickaxe.png">
+    <img class="hide" id="img15" src="images/Obsidian.png">
+    <img class="hide" id="img16" src="images/Golden_Pickaxe.png">
+
+    <!-- Load JavaScript -->
+    <script src="main.js"></script>
+
+</body>
+</html>
